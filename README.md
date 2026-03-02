@@ -14,3 +14,49 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+The Prodigal: Diaspora Reintegration Platform
+
+The Prodigal is a professional consultancy platform designed to help the Jamaican Diaspora monetize their global expertise. It facilitates the transition from international professional life to active "encore entrepreneurship" within the Jamaican economy.
+
+🚀 Features
+
+Monetize Skills: Guidance on exporting international SOPs to local growth sectors.
+
+Risk Mitigation: Expert navigation of Customs (Returning Resident concessions), Tax Administration, and Land Titles.
+
+Peer Network: Verified community access for real-time leads and knowledge sharing.
+
+Brand Identity: Features the custom "Doctor Bird" brand logo.
+
+🛠️ Tech Stack
+
+Frontend: React.js (Vite)
+
+Styling: Tailwind CSS v4 (with PostCSS integration)
+
+Icons: Lucide React
+
+Database: Firebase (Firestore) - Configuration Ready
+
+📦 Local Setup
+
+Clone the repository:
+
+git clone [https://github.com/YOUR_USERNAME/the-prodigal.git](https://github.com/YOUR_USERNAME/the-prodigal.git)
+
+Install dependencies:
+
+npm install
+
+Install Tailwind v4 PostCSS bridge:
+
+npm install -D @tailwindcss/postcss tailwindcss autoprefixer
+
+Run the development server:
+
+npm run dev
+
+📄 License
+
+This project is for professional consultancy use. All rights reserved.
