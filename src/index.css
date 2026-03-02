@@ -1,3 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  /* The Prodigal Brand Colors */
+  --color-prodigal-gold: #B48E2E;
+  --color-prodigal-green: #166534;
+  --color-prodigal-stone: #FAFAF9;
+  
+  /* Animations */
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
