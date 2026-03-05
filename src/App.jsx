@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import ConsultationModal from "./components/ConsultationModal";
+import FloatingAvatar from "./components/FloatingAvatar";
 import Home from "./pages/Home";
 import Insights from "./pages/Insights";
 import Community from "./pages/Community";
@@ -87,6 +88,9 @@ const App = () => {
         onClose={() => setConsultModalOpen(false)}
         onSubmit={handleConsultationSubmit}
       />
+      
+      {/* Floating Avatar Assistant */}
+      <FloatingAvatar />
     </div>
   );
 };
